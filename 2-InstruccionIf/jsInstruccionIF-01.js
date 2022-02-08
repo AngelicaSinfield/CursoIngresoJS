@@ -1,6 +1,16 @@
 function mostrar()
-{
-	//tomo la edad  
-	alert("ok");
 
-}//FIN DE LA FUNCIÓN
+{
+	var auto;
+	var marca;
+
+	auto = document.getElementById("txtIdEdad").value;
+
+	if(auto == "auto")
+
+	{
+		marca = prompt("Ingrese marca: ");
+		alert("Su marca es " + marca);
+	}
+
+}
